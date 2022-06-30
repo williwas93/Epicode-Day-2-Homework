@@ -1,0 +1,110 @@
+
+/*----------------------------------*/
+/* Welcome to my CSS style sheet    */
+/*----------------------------------*/
+
+
+/*               Images             */
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+  }
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3%;
+    box-shadow: 3px 1px 2px 3px rgb(207, 207, 207);
+    width: 500px;
+  }
+ 
+  /*              General Styles     */
+
+  body {
+    font-family: system-ui;
+    background: #ffffff;
+    text-align: center;
+    align-content: center;
+    margin-inline-start: auto;
+  }
+  /*           Heading               */
+   .heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    color: #107777;
+    padding-top: 1%;
+    font-size: larger ;
+    text-align: center;
+    align-content: center;
+  }
+/*                 Under Image        */
+    .uimage {
+    border-radius: 2%;
+    background-color: #bfebeb;
+    border-style: dashed;
+    border-color: #508686;
+    width: 500px;
+    }
+/*               Ingredients         */
+    .ingredients {
+    text-align: left;
+    padding-left: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: #107777;
+   }
+   .ingredientsub {
+    text-align: left;
+    padding-left: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: #107777;
+   }
+   .ingredientbullet {
+    text-align: left;
+    padding-left: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: #107777;
+   }
+/*                 Main Text         */
+    .maintext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    color: #37a56b;
+    margin: 10%;
+    margin-right: 21%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+      }
+
+/*                Navigation         */
+    .topnav {
+        margin: 20%;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        background-color:#508686;
+        opacity: 90%;
+        overflow: hidden;
+        border-radius: 5%;
+      }
+      .topnav a {
+        float: left;
+        color: #131010;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .topnav a:hover {
+        background-color: #37a56b;
+        color: black;
+      }
+      .topnav a.active {
+        background-color: #37a56b;
+        color: white;
+      }
